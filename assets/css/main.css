@@ -526,6 +526,11 @@
 		.\-1u\28xlarge\29 {
 			margin-left: 8.33333%;
 		}
+		
+		.c4p-form {
+			width: 750px;
+			height: 1350px;
+		}
 
 	}
 
@@ -741,7 +746,11 @@
 		.\-1u\28large\29 {
 			margin-left: 8.33333%;
 		}
-
+		
+		.c4p-form {
+			width: 750px;
+			height: 1350px;
+		}
 	}
 
 	@media screen and (max-width: 980px) {
@@ -955,6 +964,11 @@
 
 		.\-1u\28medium\29 {
 			margin-left: 8.33333%;
+		}
+		
+		.c4p-form {
+			width: 750px;
+			height: 1350px;
 		}
 
 	}
@@ -1175,6 +1189,11 @@
 		.wtmlogo {
 			width: 75%;
 		}
+		
+		.c4p-form {
+			width: 700px;
+			height: 1350px;
+		}
 
 	}
 
@@ -1393,6 +1412,11 @@
 		
 		.wtmlogo {
 			width: 75%;
+		}
+		
+		.c4p-form {
+			width: 330px;
+			height: 1990px;
 		}
 
 	}
@@ -3817,3 +3841,5 @@
 	.c4p{
 		text-align: center;
 	}
+	
+	
