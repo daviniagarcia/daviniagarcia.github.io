@@ -1418,6 +1418,22 @@
 			width: 330px;
 			height: 1990px;
 		}
+		
+		.img-logo-techladies {
+			width: 50%;
+		}
+		
+		.img-logo-fib {
+			width: 100%;
+		}
+		
+		.img-logo-strands {
+			width: 60%;
+		}
+		
+		.img-logo-bts {
+			width: 100%;
+		}
 
 	}
 
@@ -1444,7 +1460,7 @@
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -1592,7 +1608,7 @@
 	code {
 		background: rgba(144, 144, 144, 0.25);
 		border-radius: 3px;
-		font-family: "Courier New", monospace;
+		font-family: 'Roboto', sans-serif;
 		font-size: 0.9em;
 		letter-spacing: 0;
 		margin: 0 0.25em;
@@ -1601,7 +1617,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'Roboto', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1744,7 +1760,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: 'Roboto', sans-serif;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -1813,7 +1829,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: 'Roboto', sans-serif;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1911,7 +1927,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: 'Roboto', sans-serif;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -3834,4 +3850,11 @@
 		text-align: center;
 	}
 	
+	.call4papers {
+		display: inline;
+	}
 	
+	.call4papers-content {
+		background-color: #00BFA5;
+		text-align: center;
+	}
