@@ -2517,10 +2517,6 @@
 /* Spotlight */
 
 	.spotlight {
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2547,8 +2543,7 @@
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			max-width: 48em;
-			width: 60%;
+			
 		}
 		
 		.talk {
@@ -3794,17 +3789,14 @@
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
+	body.is-mobile.landing #banner{
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
-	body.is-mobile.landing #footer {
-		background-color: #1d242a;
-	}
+
 	
 	.row-sponsor {
 		overflow: hidden;
